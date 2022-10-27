@@ -1,3 +1,4 @@
+
 aside{
     width: 35%;
     height: 680px;
@@ -8,7 +9,7 @@ section, article{
     height: 340px;
     width: 65%;
     float: left;
-    background-color: rgb(246, 250, 237);
+    background-color: rgb(196, 200, 188);
 }
 .topBtn{
     position: fixed;
@@ -22,11 +23,11 @@ section, article{
     background-color: #000;
 }
 .topBtn button:hover{
-    background-color: blue;
+    background-color: #a9a9a9;
     color: #fff;
 }
 .topBtn button:active{
-    background-color: chartreuse;
+    background-color: #808080;
     color: #000;
 }
 footer{
