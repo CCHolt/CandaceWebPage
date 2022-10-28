@@ -1,8 +1,45 @@
-
+nav{
+    width: 100%;
+    height: 60px;
+    position: sticky; 
+    top: 0;
+    z-index: 999;
+    background-color: black;
+}
+.logo{
+    float: left;
+    margin:10px 0 0 15px;
+}
+nav ul{
+    float: right;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    padding:16px 40px;
+}
+nav ul li:hover{
+    background-color: rgb(109, 155, 127);
+}
+nav ul li:active{
+    background-color: rgb(40, 92, 48);
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color: #fff;
+}
+nav ul li a:active{
+    color:rgb(33, 88, 131);
+}
+/* This is the end of my nav bar */
 aside{
     width: 35%;
     height: 680px;
-    float: right;
+    float: right"75%";
     background-color: rgb(224, 222, 222);
 }
 section, article{
